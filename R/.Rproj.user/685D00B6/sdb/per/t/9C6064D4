@@ -1,0 +1,17 @@
+{
+    "contents" : "dall = read.csv(\"D:/Masters 2015/Stats Assignment/DataCleaned.csv\", header=TRUE, sep=\",\")\nd2009 = dall[dall$Period == \"4 w/e 21 June,09\",]\nd2010 = dall[dall$Period == \"4 w/e 20 June,10\",]\n\nmean(dall$qty)\nsd(dall$qty)\nmean(d2009$qty)\nsd(d2009$qty)\nmean(d2010$qty)\nsd(d2010$qty)\nt.test(d2009$qty,d2010$qty)\ntbl = table(dall$companyId,dall$qty)\ntbl\nchisq.test(tbl)\n\ntbl1 = table(dall$companyId,dall$Manufacturer)\ntbl1\nwrite.table(tbl1, \"clipboard\", sep=\"\\t\", row.names=TRUE, col.names=TRUE)\nchisq.test(tbl1)\n\ntbl2 = table(dall$Flavour,dall$week)\ntbl2\nwrite.table(tbl2, \"clipboard\", sep=\"\\t\", row.names=TRUE, col.names=TRUE)\nchisq.test(tbl2)\ntbl3 = table(dall$Flavour,dall$Period)\ntbl3",
+    "created" : 1426341676334.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1890521357",
+    "id" : "9C6064D4",
+    "lastKnownWriteTime" : 1426342088,
+    "path" : "D:/Code/R/sat 14 stats.R",
+    "project_path" : "sat 14 stats.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

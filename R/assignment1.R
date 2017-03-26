@@ -1,0 +1,11 @@
+dall = read.csv("D:/Masters 2015/Stats Assignment/data1.csv", header=TRUE, sep=",")
+d2009= read.csv("D:/Masters 2015/Stats Assignment/2009.csv", header=TRUE, sep=",")
+d2010= read.csv("D:/Masters 2015/Stats Assignment/2010.csv", header=TRUE, sep=",")
+mean(dall$qty)
+sd(dall$qty)
+mean(d2009$qty)
+sd(d2009$qty)
+mean(d2010$qty)
+sd(d2010$qty)
+t.test(d2009$qty,d2010$qty)
+

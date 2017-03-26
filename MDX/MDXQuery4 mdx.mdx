@@ -1,0 +1,4 @@
+select [Measures].[Fact Wreck Count] on columns,
+[Dim Vessel].[Vessel Name] on rows
+from [Wreck01]
+where [Dim Time].[Century].&[2000]

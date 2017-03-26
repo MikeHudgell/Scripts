@@ -1,0 +1,17 @@
+{
+    "contents" : "Groups = 1000\nCount=0\nfor (n in 1:Groups)\n{\n  Count = Count + 1\n  Scores = sample(c(0.7,0.2,0.1),10, replace = TRUE)\n  View(Scores, \"Score\")\n}\nView(Count)\n",
+    "created" : 1424431401575.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "3982077869",
+    "id" : "D2487611",
+    "lastKnownWriteTime" : 0,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

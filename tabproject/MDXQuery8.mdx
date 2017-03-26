@@ -1,0 +1,17 @@
+evaluate(
+	summarize(
+		crossjoin(
+			values(DimState[ID]),
+			values(FactWreck[StateId])
+		)
+	,DimState[ID]
+	,"Count of Wrecks"
+	,count(FactWreck[WreckId])
+	)
+)
+
+
+	filter
+	(
+	'DimState'[WW1CentralPowers] = TRUE
+	)

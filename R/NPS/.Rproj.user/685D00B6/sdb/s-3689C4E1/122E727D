@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1424431419280.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "122E727D",
+    "lastKnownWriteTime" : 31244048835477601,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "Count",
+        "contentUrl" : "content?title=Count&file=e49e203735ae400cbf5b706cb7a46c7e.htm",
+        "displayedObservations" : 1,
+        "displayedVariables" : 1,
+        "totalObservations" : 1,
+        "variables" : 1
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

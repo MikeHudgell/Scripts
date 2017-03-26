@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1424431419030.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F7648322",
+    "lastKnownWriteTime" : 31244048835477601,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "Score",
+        "contentUrl" : "content?title=Score&file=8cda9932cacc48d7ad9d45bd75e9e5f9.htm",
+        "displayedObservations" : "10",
+        "displayedVariables" : 1,
+        "totalObservations" : "10",
+        "variables" : "1"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,4 @@
+select {([DimClass].[Class].[Class])} on columns,
+{([DimState].[StateName].[StateName])} on rows
+from [Model]
+where [Measures].[WreckCount]
